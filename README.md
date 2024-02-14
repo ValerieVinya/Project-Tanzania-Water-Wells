@@ -65,7 +65,7 @@ Since there are no labels for the test dataset, we primarily use the training da
 
 
 ## Recommendations and Conclusions
-- The Random Forest Classifier with GridSearchCV has recall scores of 0.5 for functional needs repair and 0.71 for non-functional. There are some models such as XGBoost and Support Vector machines which have higher recall scores for functional needs repair labels but the Random Forest Classifier with GridSearchCV model has the highest recall score for non-functional. Therefore, we will select the Random Tree Classifier with GridSearchCV as our model since it has the highest accuracy, f1, and recall score for non-functional labels.
+- The `Random Forest Classifier` with GridSearchCV has recall scores of 0.5 for functional needs repair and 0.71 for non-functional. There are some models such as XGBoost and Support Vector machines which have higher recall scores for functional needs repair labels but the Random Forest Classifier with GridSearchCV model has the highest recall score for non-functional. Therefore, we will select the Random Tree Classifier with GridSearchCV as our model since it has the highest accuracy, f1, and recall score for non-functional labels.
 
 - The areas that we need to work on further to improve the final model are as below:-
 
