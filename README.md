@@ -69,7 +69,7 @@ Since there are no labels for the test dataset, we primarily use the training da
 
 - The areas that we need to work on further to improve the final model are as below:-
 
-    - The range of hyperparameter input that I use in GridSearchCV for various models is quite limited due to the computing power of my desktop. For example, we couldn't       successfully use GridSearchCV for Support vector machines because it took a very long time to complete. The model performance will be better if a larger range of input is   used to find the optimal hyperparameters.
+    - The range of hyperparameter input that we used in GridSearchCV for various models is quite limited due to the computing power of my desktop. For example, we couldn't       successfully use GridSearchCV for Support vector machines because it took a very long time to complete. The model performance will be better if a larger range of input is   used to find the optimal hyperparameters.
 
     - We removed multiple features before the model constructions because we believed these features were irrelevant. Some of these features might be relevant and could help in improving my model's performance metrics.
 
